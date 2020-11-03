@@ -1,0 +1,22 @@
+{
+  "name": "gith",
+  "version": "1.0.0",
+  "description": "pack",
+  "main": "call.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isel-leic-pi/functional-javascript-g04.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isel-leic-pi/functional-javascript-g04/issues"
+  },
+  "homepage": "https://github.com/isel-leic-pi/functional-javascript-g04#readme",
+  "devDependencies": {
+    "eslint": "^7.11.0"
+  }
+}
