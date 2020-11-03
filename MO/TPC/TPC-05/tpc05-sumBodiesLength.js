@@ -9,7 +9,6 @@ function bodyLength(url, cb) {
 		} else {
 			const size = body.toString().length
 			cb(null, size)
-			//console.log('>>>>' + url + ' body size: ' + body.toString().length)
 		}
 	})
 }
