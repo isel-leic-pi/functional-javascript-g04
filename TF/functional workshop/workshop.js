@@ -100,7 +100,7 @@ module.exports = reduce
 
 
 ////////////////////////  BASIC: CALL  ///////////////////////////////////
-///////////////////////  REVER COM ENGENHEIRO - DIFERENÇA  ///////////////////////
+///////////////////////  REVER COM ENGENHEIRO - DIFERENÇA DE OPÇÕES E ENTRE CALL() E APPLY()  ///////////////////////
 /*
 function duckCount() {
   let ducks = Array.from(arguments);
