@@ -1,0 +1,28 @@
+'use strict'
+
+const fs = require('fs')
+
+
+function readFileAsynchronous(file){
+	fs.readFile(file, (err,data) =>{
+		if(err) console.log("ERRO")
+		const buffer = data.toString()
+		console.log(buffer.split('\n').length - 1)
+	})   
+}
+
+readFileAsynchronous(process.argv[2])
+
+/*
+const fs = require('fs')
+    const file = process.argv[2]
+
+    fs.readFile(file, function (err, contents) {
+      if (err) {
+        return console.log(err)
+      }
+      // fs.readFile(file, 'utf8', callback) can also be used
+      const lines = contents.toString().split('\n').length - 1
+      console.log(lines)
+    })
+*/
